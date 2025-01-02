@@ -1,0 +1,38 @@
+.Header {
+    /* 헤더 영역 기본 스타일 */
+    padding-top: 20px; /* 상단 여백 20px */
+    padding-bottom: 20px; /* 하단 여백 20px */
+    
+    display: flex; /* Flexbox 레이아웃 사용 */
+    align-items: center; /* 수직 중앙 정렬 */
+    border-bottom: 1px solid #e2e2e2; /* 하단에 연한 회색 테두리 추가 */
+}
+
+.Header > div {
+    /* 헤더의 내부 div 요소에 Flexbox 적용 */
+    display: flex; /* Flexbox 레이아웃 사용 */
+}
+
+.Header button {
+    /* 버튼에 글꼴 설정 */
+    font-family: "Naum Pen Script"; /* 특정 글꼴 적용 */
+}
+
+.Header .header_title {
+    /* 헤더 제목 스타일 */
+    width: 50%; /* 제목이 차지할 너비 50% */
+    font-size: 25px; /* 글꼴 크기 25px */
+    justify-content: center; /* 수평 중앙 정렬 */
+}
+
+.Header .header_left{
+    /* 헤더 왼쪽 부분 스타일 */
+    width: 25%; /* 너비 25% */
+    justify-content: start; /* 왼쪽 정렬 */
+}
+
+.Header .header_right{
+    /* 헤더 오른쪽 부분 스타일 */
+    width: 25%; /* 너비 25% */
+    justify-content: end; /* 오른쪽 정렬 */
+}

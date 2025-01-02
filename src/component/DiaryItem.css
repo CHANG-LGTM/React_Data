@@ -1,0 +1,64 @@
+/* 일기 항목 스타일 */
+.DiaryItem {
+    padding-top: 15px; /* 위쪽 패딩 */
+    padding-bottom: 15px; /* 아래쪽 패딩 */
+    border-bottom: 1px solid #e2e2e2; /* 하단에 회색 실선 경계 */
+    display: flex; /* flexbox로 레이아웃 구성 */
+    justify-content: space-between; /* 아이템을 양 끝에 배치 */
+}
+
+/* 이미지 섹션 스타일 */
+.DiaryItem .img_section {
+    cursor: pointer; /* 마우스를 올리면 클릭 가능하게 표시 */
+    min-width: 120px; /* 최소 너비 */
+    height: 80px; /* 높이 */
+    border-radius: 5px; /* 둥근 모서리 */
+    display: flex; /* flexbox로 중앙 정렬 */
+    justify-content: center; /* 이미지를 중앙에 배치 */
+}
+
+/* 각 이미지 섹션별 배경색 */
+.DiaryItem .img_section_1 {
+    background-color: #64c964; /* 초록색 */
+}
+.DiaryItem .img_section_2 {
+    background-color: #9dd772; /* 연한 초록색 */
+}
+.DiaryItem .img_section_3 {
+    background-color: #fdce17; /* 노란색 */
+}
+.DiaryItem .img_section_4 {
+    background-color: #fd8446; /* 주황색 */
+}
+.DiaryItem .img_section_5 {
+    background-color: #fd565f; /* 빨간색 */
+}
+
+/* 이미지 크기 설정 */
+.DiaryItem .img_section img {
+    width: 50%; /* 이미지 너비를 부모의 50%로 설정 */
+}
+
+/* 일기 정보 섹션 스타일 */
+.DiaryItem .info_section {
+    flex-grow: 1; /* 남은 공간을 차지하도록 설정 */
+    margin-left: 20px; /* 왼쪽 여백 */
+    cursor: pointer; /* 클릭 가능하게 표시 */
+}
+
+/* 일기 날짜 스타일 */
+.DiaryItem .info_section .date_wrapper {
+    font-weight: bold; /* 글자 두껍게 */
+    font-size: 25px; /* 글자 크기 */
+    margin-bottom: 5px; /* 아래 여백 */
+}
+
+/* 일기 내용 스타일 */
+.DiaryItem .info_section .content_wrapper {
+    font-size: 18px; /* 글자 크기 */
+}
+
+/* 버튼 섹션 스타일 */
+.DiaryItem .button_section {
+    min-width: 70px; /* 최소 너비 */
+}

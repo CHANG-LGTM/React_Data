@@ -1,0 +1,73 @@
+.Viewer{
+    /* Viewer 컨테이너 기본 스타일 (추가 스타일 없음) */
+}
+
+.Viewer section{
+    /* 각 section의 기본 스타일 */
+    width: 100%; /* 전체 너비 */
+    margin-bottom: 100px; /* 하단 여백 100px */
+    display: flex; /* Flexbox 레이아웃 사용 */
+    flex-direction: column; /* 세로 방향으로 아이템 배치 */
+    align-items: center; /* 수평 중앙 정렬 */
+    text-align: center; /* 텍스트 중앙 정렬 */
+}
+
+.Viewer h4{
+    /* 제목 스타일 */
+    font-size: 22px; /* 글꼴 크기 22px */
+    font-weight: bold; /* 글꼴 두께 bold */
+}
+
+.Viewer .emtion_img_wrapper{
+    /* 감정 이미지를 포함하는 영역 기본 스타일 */
+    background-color: #ececec; /* 배경색 연한 회색 */
+    width: 250px; /* 너비 250px */
+    height: 250px; /* 높이 250px */
+    border-radius: 5px; /* 둥근 모서리 */
+    display: flex; /* Flexbox 레이아웃 사용 */
+    flex-direction: column; /* 세로 방향으로 아이템 배치 */
+    align-items: center; /* 수평 중앙 정렬 */
+    justify-content: space-around; /* 항목 간 간격 균등 배치 */
+}
+
+/* 각 감정 상태에 따른 배경색 */
+.Viewer .emotion_img_wrapper_1{
+    background-color: #64c964; /* 감정 1: 초록색 */
+}
+.Viewer .emotion_img_wrapper_2{
+    background-color: #9dd772; /* 감정 2: 연한 초록색 */
+}
+.Viewer .emotion_img_wrapper_3{
+    background-color: #fdce17; /* 감정 3: 노란색 */
+}
+.Viewer .emotion_img_wrapper_4{
+    background-color: #fd8446; /* 감정 4: 주황색 */
+}
+.Viewer .emotion_img_wrapper_5{
+    background-color: #fd565f; /* 감정 5: 빨간색 */
+}
+
+.Viewer .emotion_descript{
+    /* 감정 설명 텍스트 스타일 */
+    font-size: 25px; /* 글꼴 크기 25px */
+    color: white; /* 텍스트 색상 흰색 */
+}
+
+.Viewer .content_wrapper{
+    /* 콘텐츠 영역 기본 스타일 */
+    width: 100%; /* 전체 너비 */
+    background-color: #ececec; /* 배경색 연한 회색 */
+    border-radius: 5px; /* 둥근 모서리 */
+    word-break: keep-all; /* 단어가 끊어지지 않도록 설정 */
+    overflow-wrap: break-word; /* 긴 단어가 영역을 벗어나지 않도록 처리 */
+}
+
+.Viewer .content_wrapper p{
+    /* 콘텐츠 텍스트 스타일 */
+    padding: 20px; /* 내측 여백 20px */
+    text-align: left; /* 텍스트 왼쪽 정렬 */
+    font-size: 20px; /* 글꼴 크기 20px */
+    font-family: "Yeon Sung"; /* 특정 글꼴 사용 */
+    font-weight: 400; /* 일반 두께 */
+    line-height: 2.5; /* 줄 간격 2.5 */
+}

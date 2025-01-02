@@ -1,0 +1,29 @@
+/* 구글 웹 폰트 불러오기 (Nanum Pen Script, Yeon Sung) */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Yeon+Sung&display=swap');
+
+/* HTML과 body 태그에 대한 스타일 */
+html,
+body {
+  margin: 0px; /* 기본 margin을 0으로 설정 */
+  width: 100%; /* 화면 너비를 100%로 설정 */
+  background-color: #f6f6f6; /* 배경색을 연한 회색으로 설정 */
+  display: flex; /* 플렉스박스를 사용하여 중앙 정렬 */
+  justify-content: center; /* 수평 중앙 정렬 */
+  font-family: "Nanum Pen Script"; /* 폰트 설정 */
+}
+
+/* body 태그에 대한 추가 설정 */
+body { 
+  height: 100%; /* body의 높이를 100%로 설정 */
+}
+
+/* #root 태그에 대한 스타일 */
+#root {
+  margin: 0 auto; /* 좌우 마진을 자동으로 설정해 중앙 정렬 */
+  max-width: 600px; /* 최대 너비를 600px로 제한 */
+  width: 100%; /* 너비를 100%로 설정 */
+  min-height: 100vh; /* 최소 높이를 화면 전체 높이로 설정 */
+  height: 100%; /* 높이를 100%로 설정 */
+  background-color: white; /* 배경색을 흰색으로 설정 */
+  box-shadow: rgba(100, 100, 100, 0.2) 0px 7px 29px 0px; /* 부드러운 그림자 효과 추가 */
+}
